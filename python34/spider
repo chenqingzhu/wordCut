@@ -5,7 +5,8 @@ from urllib import request
 import pandas as pd
 from pandas import DataFrame,Series
 from bs4 import BeautifulSoup
-#get.......
+#get......
+#import.....
 def lagou_spider_keyword(keyword):
     #将搜索字符串转换为utf-8编码，之后进行lagou.com搜索url构造
     keywordbyte=keyword.encode('utf-8')
